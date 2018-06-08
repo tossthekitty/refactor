@@ -1,0 +1,11 @@
+﻿This is VS2013 solution. It has 2 projects: C++ MT and C# OPP.
+
+In MT you need to find out if anything is wrong with the application and if so try to fix it. Note it uses thread_t class which is just a custom wrapper for multithreading API. See file thread.h.
+In OOP you need to improve the existing code using OOP principles. Do whatever you think is good for this application.
+Also there is a Problem.cpp file in this solutions. It has a description what has to be done.
+
+Obviously the first problem - majority voting has multiple solutions. Please try to find most optimal.
+
+The second one assumes that you need to compare very many numbers within limited time. So straight forward solution like Pow(X,Y) would be too time consuming. 
+You need to  find better algorithm. 
+
